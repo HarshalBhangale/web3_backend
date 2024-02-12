@@ -1,0 +1,7 @@
+tk
+speechrecognition==3.8.1
+pyttsx3==2.90
+pyaudio==0.2.11
+
+
+# use pip install -r requirements.txt to install pip packages

@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "backend-server"
+version = "0.1.0"
+description = ""
+authors = ["sushmit <sushmitsarmah@gmail.com>", "hashal <hashalbhangale@gmail.com>", 
+"fibinse <fibinse.xavier@gmail.com>"]
+readme = "README.md"
+packages = [{include = "backend_server"}]
+
+[tool.poetry.dependencies]
+python = ">=3.8.1,<4.0"
+fastapi = "^0.103.1"
+uvicorn = "^0.23.2"
+pandas = "<=2.1.0"
+openai = "^0.28.0"
+pydantic = "^2.3.0"
+python-dotenv = "^1.0.0"
+langchain = "^0.0.310"
+psycopg2 = "^2.9.9"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
